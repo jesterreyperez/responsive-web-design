@@ -226,3 +226,15 @@ img {
     margin: auto;
   }
 }
+
+/* Sections */
+.hero {
+  padding: 5rem 5rem 10rem 5rem;
+  top: 0;
+}
+
+.biography {
+  color: #37383a;
+  padding: 0 5rem 4rem 5rem;
+  margin-bottom: 5rem;
+}
