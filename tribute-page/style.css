@@ -34,3 +34,10 @@ h1 {
   color: #948c57;
   text-transform: uppercase;
 }
+
+/* Shrink h1 on very small screens like mobile*/
+@media (max-width: 400px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
