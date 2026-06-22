@@ -48,3 +48,17 @@ h1 {
     font-size: 7rem;
   }
 }
+
+/* Section headings */
+h2 {
+  font-size: 3rem;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 1400px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
