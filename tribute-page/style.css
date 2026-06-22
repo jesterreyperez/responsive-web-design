@@ -196,3 +196,11 @@ img {
     font-size: 2rem;
   }
 }
+
+/* Hero section layout using flexbox  */
+
+.container {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
