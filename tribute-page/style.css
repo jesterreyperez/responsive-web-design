@@ -95,3 +95,8 @@ a:hover {
   text-decoration: underline;
   color: #37383a;
 }
+
+/* Visited links turn gold */
+a:visited {
+  color: #948c57;
+}
