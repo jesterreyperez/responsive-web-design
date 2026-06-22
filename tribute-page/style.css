@@ -41,3 +41,10 @@ h1 {
     font-size: 4rem;
   }
 }
+
+/* Enlarge h1 on very large screens */
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 7rem;
+  }
+}
