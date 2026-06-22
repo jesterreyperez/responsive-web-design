@@ -204,3 +204,8 @@ img {
   gap: 3rem;
   align-items: center;
 }
+
+/* Text column takes up more space */
+.column-header {
+  flex: 2;
+}
