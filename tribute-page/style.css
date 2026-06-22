@@ -62,3 +62,25 @@ h2 {
     font-size: 4rem;
   }
 }
+
+/* Quote styling */
+blockquote {
+  font-size: 2rem;
+  font-style: italic;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 1400px) {
+  blockquote {
+    font-size: 3rem;
+  }
+}
+
+/* Remove bullets and indent */
+ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 2;
+}
