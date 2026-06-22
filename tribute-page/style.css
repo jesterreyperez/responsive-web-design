@@ -214,3 +214,15 @@ img {
 .column-image {
   flex: 1;
 }
+
+/* Stack columns vertically on medium screens */
+@media screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+
+  /* Center gallery images when stacked */
+  .img-container img {
+    margin: auto;
+  }
+}
