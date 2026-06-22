@@ -20,3 +20,17 @@ body {
     line-height: 1.8;
   }
 }
+
+/* Page title */
+h1 {
+  font-size: 6rem;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+}
+
+/* Subtitle beneath the page title */
+.subtitle {
+  font-weight: 300;
+  color: #948c57;
+  text-transform: uppercase;
+}
