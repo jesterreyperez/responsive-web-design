@@ -84,3 +84,14 @@ ul {
   padding-left: 0;
   line-height: 2;
 }
+
+/* Default link style */
+a {
+  text-decoration: none;
+  color: #37383a;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #37383a;
+}
