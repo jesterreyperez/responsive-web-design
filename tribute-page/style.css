@@ -209,3 +209,8 @@ img {
 .column-header {
   flex: 2;
 }
+
+/* Image column takes up less space */
+.column-image {
+  flex: 1;
+}
