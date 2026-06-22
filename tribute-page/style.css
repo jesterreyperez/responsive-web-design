@@ -117,3 +117,16 @@ a:visited {
 #tribute-link:hover {
   text-decoration: none;
 }
+
+/* Span inside CTA link used for the underline animation */
+#tribute-link-dash {
+  text-decoration: none;
+}
+
+/* Trigger underline animation on hover */
+#tribute-link:hover #tribute-link-dash {
+  animation-name: tribute-link-dash-move;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
