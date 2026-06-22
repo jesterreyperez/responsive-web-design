@@ -12,3 +12,11 @@ body {
   background-color: #fbfaf8;
   color: #37383a;
 }
+
+/* Scale up font size and line height for larger screens */
+@media (min-width: 1400px) {
+  body {
+    font-size: 2.5rem;
+    line-height: 1.8;
+  }
+}
