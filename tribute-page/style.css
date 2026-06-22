@@ -157,3 +157,14 @@ img {
   grid-gap: 3rem;
   margin: 0 auto;
 }
+
+/* Single column on very small screens */
+@media (max-width: 400px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.img-container {
+  position: relative;
+}
